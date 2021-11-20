@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Pagina Deco Argentina, dedicada a la decoracion del hogar">
+    <meta name="Keywords" content="area de contacto, consultanos!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Kioma Deco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estiloscss/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--ESPACIO-->
+    <div class="Espacio"></div>
+    <!--LOGO-DE-LA-PAGINA-->
+    <link rel="shortcut icon" type="imagenes/x-icon" href="../logo/logo.png">
+
+    <!--FORMULARIO-DE-CONTACTO-->
+    <form id="Contacto">
+        <fieldset class="Contacto-consulta">
+
+            <legend>Consultanos!</legend>
+            <label for="name">Nombre</label>
+            <input class="Contacto-consulta__input" type="text" name="name" placeholder="Igresa tu nombre" required>
+            <label for="apellido">Apellido</label>
+            <input class="Contacto-consulta__input" type="text" name="apellido" placeholder="Igresa tu apellido"
+                required>
+            <label for="E-mail">E-mail</label>
+            <input class="Contacto-consulta__input" type="text" name="E-mail" placeholder="Igresa tu mail" required>
+            <label class="Contacto-consulta__desplegable" for="Productos">Productos: </label>
+
+            <select name="Productos" class="Contacto-consulta__selector">
+                <option value="">Selecciona tu Producto</option>
+                <option value="Platos de Sitio">Platos de Sitio</option>
+                <option value="Individuales Clasicos">Individuales Clasicos</option>
+                <option value="Caminitos de Mesa">Caminitos de Mesa</option>
+                <option value="Manteles">Manteles</option>
+                <select>
+
+                    <div>Tipo</div>
+                    <input type="checkbox" name="cbox1"> Tropicales
+                    <input type="checkbox" name="cbox2"> Lisos
+                    <input type="checkbox" name="cbox3"> Estampados
+
+                    <label class="Contacto-consulta__comentario" for="comentarios"> Agrega tu Comentario:</label>
+                    <textarea name="consulta" id="" cols="30" rows="5" maxlength="500"
+                        placeholder="comentario"></textarea>
+
+                    <input class="BotonEnviar" type="submit" value="Envia tu consulta">
+                    <input class="BotonEnviar" type="reset" value="Limpiar formulario">
+
+        </fieldset>
+    </form>
+    <!--FIN-FORMULARIO-DE-CONTACTO-->
+
+    <!--FOOTER-->
+    <footer id="footer">
+        <!--MENU--INFERIOR-->
+        <div class="row row-cols-2">
+            <!--CATEGORIAS-->
+            <div class="col">
+                <div class="container">
+                    <div class="row footer-nav-categorias">
+                        <ul>
+                            <h4>Categorias</h4>
+                            <li><a href="../index.html">KIOMA DECO</a></li>
+                            <li><a href="./living.html">LIVING</a></li>
+                            <li><a href="./cocina-y-comedor.html">COCINA Y COMEDOR</a> </li>
+                            <li><a href="./baño.html">BAÑO</a></li>
+                            <li><a href="./combos.html">COMBOS</a></li>
+                            <li><a href="./contacto.html" target="_blank">Contacto</a></li>
+                            <li><a href="./blog.html" target="_blank">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--REDES--SOCIALES-->
+            <div class="col">
+                <div class="container">
+                    <div class="row footer-nav-redessociales">
+                        <ul>
+                            <h4>Seguinos!</h4>
+                            <li><a href="https://www.facebook.com/Kioma-Deco-102549155287535/?ref=py_c"
+                                    target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/kioma.decoraciones/ " target="_blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!--FIN-DEL-FOOTER-->
+
+    <!--ESPACIO-->
+    <div class="Espacio">
+        <h6>
+            Copyright Kioma Deco - 2021
+        </h6>
+    </div>
+    <!--FIN--ESPACIO-->
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

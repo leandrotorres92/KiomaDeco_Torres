@@ -1,0 +1,56 @@
+/*--------------------------------------Inicio--Header*/
+//Variables
+$color-contenido-texto: white;
+$color-hover: #ffc3a0;
+$color-hover-texto: black;
+$bg-menu: #364953;
+
+#header {
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    .menu {
+        background-image: url("../imagenes/navbar/nav1.jpg");
+        background-color: $bg-menu;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20vh;
+
+        a {
+            font-size: 1.15rem;
+            font-weight: 500;
+            padding: 0.45rem;
+            margin: 1rem;
+            border-radius: 4px;
+            background-color: $bg-menu;
+            color: $color-contenido-texto;
+        }
+
+        a:hover {
+            background-color: $color-hover;
+            color: $color-hover-texto;
+            transition-duration: 0.5s;
+            opacity: 85%;
+        }
+
+        .btnbuscar {
+            background-color: $bg-menu;
+            color: $color-contenido-texto;
+            font-size: 1.15rem;
+            font-weight: 500;
+            padding: 0.45rem;
+            border: none;
+        }
+
+        .btnbuscar:hover {
+            background-color: $color-hover;
+            color: $color-hover-texto;
+            transition-duration: 0.5s;
+            opacity: 85%;
+        }
+    }
+}
+/*--------------------------------------Fin--Header*/
